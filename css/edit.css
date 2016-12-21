@@ -1,0 +1,49 @@
+
+input{
+  float: right;
+  margin-right: 10px;
+}
+.wrapper{
+  width: 200px;
+}
+p{
+  margin-top: 35px;
+  margin-left: 10px;
+}
+#reset{
+  float: left;
+  margin-left: 10px;
+}
+.cho{
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+.center{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.file {
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top:30px;
+    margin-left: 50px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: grey;
+    text-decoration: none;
+}
